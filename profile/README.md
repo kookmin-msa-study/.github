@@ -64,3 +64,5 @@
 - [조현진](https://github.com/mclub4)(스터디장) : [개인 블로그](https://mclub4.tistory.com/)
 - [홍석주](https://github.com/sukjuhong) : [개인 블로그](https://velog.io/@sukjuhong/posts)
 - [채원찬](https://github.com/BlueBerrySoda)
+
+해당 스터디에 관련해서 관심 있으신분은 (mclub4@kookmin.ac.kr)으로 연락주시길 바랍니다. 국민대 출신 학생으로만 한정해서 받습니다!
