@@ -57,9 +57,10 @@
 - [스프링으로 하는 마이크로 서비스 구축](https://www.yes24.com/Product/Goods/95593443)
 - [가상 면접 사례로 배우는 대규모 시스템 설계 기초](https://www.yes24.com/Product/Goods/102819435)
 
+<br>
 
 ## 스터디원 정보
 
-- [조현진](https://github.com/mclub4) : [개인 블로그](https://mclub4.tistory.com/)
+- [조현진](https://github.com/mclub4)(스터디장) : [개인 블로그](https://mclub4.tistory.com/)
 - [홍석주](https://github.com/sukjuhong) : [개인 블로그](https://velog.io/@sukjuhong/posts)
 - [채원찬](https://github.com/BlueBerrySoda)
