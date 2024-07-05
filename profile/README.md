@@ -1,12 +1,12 @@
-## Hi there 👋
+## MSA 스터디 개요
 
-<!--
+당근 마켓, Amazon, Netflix, 네이버, 여기어때, 야놀자, 컬리 등등 많은 서비스들이 MSA를 도입하고 관리하고 있습니다.
 
-**Here are some ideas to get you started:**
+요즘 이름을 들어봤다 하는 서비스들은 거의 MSA를 도입하고, 업계 표준이 된 상황입니다.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+하지만, 개인 사이드 프로젝트에서 이를 적용하기에는 너무 오버엔지니어링이기 때문에 좀 어려운 상황입니다.
+
+따라서, 스터디를 통해 대규모 시스템 설계 이론에 대해서 공부해보고 시스템을 직접 구축해보고자 하는 스터디입니다.
+
+
+
