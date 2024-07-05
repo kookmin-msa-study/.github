@@ -8,6 +8,7 @@
 
 따라서, 스터디를 통해 대규모 시스템 설계 이론에 대해서 공부해보고 시스템을 직접 구축해보고자 하는 스터디입니다.
 
+최근 백엔드로서 아주 중요한 역량인 대규모 시스템 설계, 고가용성, 대규모 트래픽처리, 동시성 처리 등에 대한 이해를 높이고, 더 나은 백엔드 개발자로서 성장하고자 합니다...!
 
 ## 스터디에서 다룰 내용
 
@@ -18,3 +19,4 @@
 - MSA 아키텍처에서 많이 쓰이는 기술들 탐구 (Kafka, Istio, Kubernetus, Docker, Promethus, Grafana, Jaeger, ELK Stack, argoCD, Harbor 등..)
 - 클라우드 설계 (ELB, VPC, EKS, ECR 등)
 - MSA 환경에서의 분산 DB 설계 (티켓서버, 트위터 스노플레이크 접근법, CAP 정리, DB Replication, Master-Slave, 안정적인 해시 설계, Orchestration based SAGA 패턴 같은 분산 트랜잭션, 이기종 DB 트랜잭션, Transaction Outbox pattern 등)
+
