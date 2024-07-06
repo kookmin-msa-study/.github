@@ -14,7 +14,7 @@
 
 ## 스터디에서 다룰 내용
 
-- [스터디 주차별 세부 일정](https://github.com/kookmin-msa-study/.github/wiki/%EC%A3%BC%EC%B0%A8%EB%B3%84-%EC%8A%A4%ED%84%B0%EB%94%94-%EC%A7%84%ED%96%89-%EC%9D%BC%EC%A0%95)은 해당 문서를 참고해주세요!!
+- [스터디 주차별 실습 세부 일정](https://github.com/kookmin-msa-study/.github/wiki/%EC%A3%BC%EC%B0%A8%EB%B3%84-%EC%8A%A4%ED%84%B0%EB%94%94-%EC%A7%84%ED%96%89-%EC%9D%BC%EC%A0%95)은 해당 문서를 참고해주세요!!
 - 백엔드에 관련된 기술 탐구
 - 여러 기업들의 MSA 아키텍처에 대해 탐구
 - 대규모 트래픽이 들어왔을때 대처에 대한 고민 (비동기처리, API Rate Limiter, 캐싱, Message Queue, 로드밸런싱 등)
