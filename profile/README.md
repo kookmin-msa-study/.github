@@ -65,7 +65,7 @@
 - [조현진](https://github.com/mclub4)(스터디장) : [개인 블로그](https://mclub4.tistory.com/)
 - [홍석주](https://github.com/sukjuhong) : [개인 블로그](https://velog.io/@sukjuhong/posts)
 - [채원찬](https://github.com/BlueBerrySoda)
-- [이은선] (https://github.com/Eun-sun-Lee) : [개인 블로그] (https://esssun.tistory.com/)
+- [이은선](https://github.com/Eun-sun-Lee) : [개인 블로그] (https://esssun.tistory.com/)
 
 <br>
 
