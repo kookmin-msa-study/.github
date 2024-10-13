@@ -1,14 +1,8 @@
 ## MSA 스터디 개요
 
-당근 마켓, Amazon, Netflix, 네이버, 여기어때, 야놀자, 컬리 등등 많은 서비스들이 MSA를 도입하고 관리하고 있습니다.
+해당 스터디는 대규모 시스템 설계, 고가용성, 대규모 트래픽 처리, 동시성 처리 등 백엔드에서 중요한 역량을 탐구하는 데 있습니다. 
 
-요즘 이름을 들어봤다 하는 서비스들은 거의 MSA를 도입하고, 업계 표준이 된 상황입니다.
-
-하지만, 개인 사이드 프로젝트에서 이를 적용하기에는 너무 오버엔지니어링이기 때문에 좀 어려운 상황입니다.
-
-따라서, 스터디를 통해 대규모 시스템 설계 이론에 대해서 공부해보고 시스템을 직접 구축해보고자 하는 스터디입니다.
-
-최근 백엔드로서 아주 중요한 역량인 대규모 시스템 설계, 고가용성, 대규모 트래픽처리, 동시성 처리 등에 대한 이해를 높이고, 더 나은 백엔드 개발자로서 성장하고자 합니다...!
+백엔드 개발은 개인적으로 해결하기 어려운 부분이 많기 때문에, 스터디에서는 여러 기업들의 아키텍처를 분석하고, 비동기 처리, API Rate Limiter, 캐싱, Message Queue, 로드밸런싱 등 백엔드에 관련된 이론을 심도있게 학습하는 스터디입니다. 
 
 <br>
 
@@ -18,17 +12,16 @@
 - 백엔드에 관련된 기술 탐구
 - 여러 기업들의 MSA 아키텍처에 대해 탐구
 - 대규모 트래픽이 들어왔을때 대처에 대한 고민 (비동기처리, API Rate Limiter, 캐싱, Message Queue, 로드밸런싱 등)
-- MSA 아키텍처에서 각 서버간 Coupling을 줄이기
-- MSA 아키텍처 설계를 위한 요소들 탐구 (서킷브레이커 패턴, 서비스매쉬, 컨테이너 오케스트레제이션, 분산추적, API Gateway 등)
-- MSA 아키텍처에서 많이 쓰이는 기술들 탐구 (Kafka, Istio, Kubernetus, Docker, Promethus, Grafana, Jaeger, ELK Stack, argoCD, Harbor 등..)
+- 아키텍처 설계를 위한 요소들 탐구 (서킷브레이커 패턴, 서비스매쉬, 컨테이너 오케스트레제이션, 분산추적, API Gateway 등)
+- 여러 기술 스택들 탐구 (Kafka, Istio, Kubernetus, Docker, Promethus, Grafana, Jaeger, ELK Stack, argoCD, Harbor 등..)
 - 클라우드 설계 (ELB, VPC, EKS, ECR 등)
-- MSA 환경에서의 분산 DB 설계 (티켓서버, 트위터 스노플레이크 접근법, CAP 정리, DB Replication, Master-Slave, 안정적인 해시 설계, Orchestration based SAGA 패턴 같은 분산 트랜잭션, 이기종 DB 트랜잭션, Transaction Outbox pattern 등)
+- 분산 DB 설계 (티켓서버, 트위터 스노플레이크 접근법, CAP 정리, DB Replication, Master-Slave, 안정적인 해시 설계, Orchestration based SAGA 패턴 같은 분산 트랜잭션, 이기종 DB 트랜잭션, Transaction Outbox pattern 등)
 
 <br>
 
 ## 스터디에서 진행할 활동
 
-스터디는 매주 금요일 오후 2시에 Discord로 진행됩니다.
+스터디는 매주 금요일 오후 2시에 Discord로 진행됩니다. (시간 조정 가능)
 
 1. 백엔드 개발론에 대한 주제로 각자 돌아가면서 발표를 진행합니다.
 
@@ -44,17 +37,6 @@
   - [답 있는 버젼](https://github.com/kookmin-msa-study/.github/wiki/%EC%A3%BC%EC%B0%A8%EB%B3%84-%EB%A9%B4%EC%A0%91-%EC%97%B0%EC%8A%B5-%EC%A7%88%EB%AC%B8-%EB%AA%A8%EC%9D%8C-(Ver.-Answer))에서 해당 면접 질문에 대한 답까지 볼 수 있습니다. 해당 답은 스터디장이 키워드를 넣어서 예쁘게 답변을 받아낸 것입니다.
   - 면접 질문 난이도는 어려운 질문을 대비하여 난이도가 높게 선정되어 있습니다.
 
-3. 각자 다음 스터디 날짜까지 해당 주차별로 정한 시스템을 구축해옵니다. (개별적 선택)
-
-   - 기본적으로 실습은 "[스프링으로 하는 마이크로 서비스 구축](https://www.yes24.com/Product/Goods/95593443)" 책을 바탕으로 진행합니다.
-   - [해당 책의 샘플 레포](https://github.com/PacktPublishing/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud)를 참고하여 각자 주차별로 해당 주제의 시스템을 직접 구축해봅니다.
-   - 발표가 끝난 후, 각자 1주동안 구축한 시스템에 대해서 이야기를 나눕니다. (어떤 점에서 고난을 겪었는지, 어떤식으로 커스텀을 해봤는지, 어떻게 더 개선할 수 있을지 등)
-   - 그 다음, 주차별 복습 질문에 답을 해보면서 내용 정리를 해봅니다.
-   - 반드시 해당 책의 챕터대로 진행하지는 않을 계획입니다. Kubernetus 같은 내용은 한주에 하기 어렵기도 하며, 해당 책에서는 argoCD, Kafka, GRPC 등 MSA에서 필수적인 기술 스택에 대해서는 다루고 있지 않아 추가할 수도 있기 때문입니다.
-   - DB 분산 설계는 개인적으로 진행하기 어려워서 이론으로만 다룰 계획입니다. 원한다면 DB 분산 설계까지 진행하셔도 무방합니다!
-   - 시스템 구축은 기본적으로 On-Premise 환경에서 구축하고자 합니다. 클라우드 환경에서 MSA를 구축하기에는 비용적인 문제가 많기 때문입니다. 원한다면 클라우드 기술까지 접목해서 개발해도 좋습니다!
-   - 실습 과제는 기본 과제와 심화 과제로 나누어집니다.
-
 3. 참고자료 작성
 
    - 스터디에 도움이 될 만한 자료나, 참고자료는 [해당 레포의 Wiki](https://github.com/kookmin-msa-study/.github/wiki)에 작성해주시길 바랍니다.
@@ -63,7 +45,6 @@
 
 ## 스터디 진행에 사용할 책
 
-- [스프링으로 하는 마이크로 서비스 구축](https://www.yes24.com/Product/Goods/95593443)
 - [가상 면접 사례로 배우는 대규모 시스템 설계 기초](https://www.yes24.com/Product/Goods/102819435)
 
 <br>
